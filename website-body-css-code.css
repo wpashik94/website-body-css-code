@@ -1,0 +1,56 @@
+body{
+	overflow-x:hidden;
+}
+body:not(.logged-in) .if-login-show-it{
+	display:none !important;
+}
+.logged-in .if-logout-show-it{
+	display:none !important;
+}
+body:not(.elementor-device-desktop) .tranparent-heading-text{
+	margin-bottom:-100px;
+}
+a{
+	text-decoration:none !important;
+	outline:none !important;
+}
+.vc_btn3, 
+.wp-block-search__button, 
+.search-entry-readmore a, 
+.blog-entry-readmore a,
+.pt-cv-wrapper .btn-success,.vc_tta.vc_general .vc_tta-tab > a {
+	background:#F2184F !important;
+	border: none !important;
+	border-radius: 0 !important;
+	color: #fff !important;
+	font-size: 16px !important;
+	font-weight: 600 !important;
+	text-transform: capitalize !important;
+	letter-spacing: 1px;
+	padding: 10px 16px !important;
+	transition: all .5s ease-in-out !important;
+}
+.vc_btn3:hover,
+.wp-block-search__button:hover,
+.search-entry-readmore a:hover,
+.blog-entry-readmore a:hover,
+.pt-cv-wrapper .btn-success:hover{
+	background:#000  !important;
+	color: #fff !important;
+}
+#site-logo #site-logo-inner a:hover img {
+    opacity: 1 !important;
+}
+#main #content-wrap {
+    padding-top: 85px;
+	padding-bottom:85px;
+}
+.page-numbers.current {
+	background:#F2184F !important;
+	color: #fff !important;
+}
+.wp-block-search__input {
+  margin-right: 5px;
+}
+
+
